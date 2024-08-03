@@ -40,7 +40,7 @@ def get_logger(logger_name):
    return logger
 
 
-
+# Usage Example
 log = get_logger("loggy")
 log.debug("This is a debug message")
 log.info("This is an info message")
